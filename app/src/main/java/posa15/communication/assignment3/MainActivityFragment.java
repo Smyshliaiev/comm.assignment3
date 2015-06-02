@@ -20,4 +20,13 @@ public class MainActivityFragment extends Fragment {
                              Bundle savedInstanceState) {
         return inflater.inflate(R.layout.fragment_main, container, false);
     }
+
+    public void onClickSyncServiceCall(View v) {
+        // does something very interesting
+
+    }
+
+    public void onClickASyncServiceCall(View v) {
+        // does something very interesting
+    }
 }
