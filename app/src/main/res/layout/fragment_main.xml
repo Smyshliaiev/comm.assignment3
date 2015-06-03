@@ -12,7 +12,7 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:text="Enter city name"
+        android:text="London,uk"
         android:layout_alignRight="@+id/button_async"
         android:layout_alignEnd="@+id/button_async" />
 
@@ -35,4 +35,89 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Name"
+        android:id="@+id/textView_name"
+        android:layout_below="@+id/editText_cityName"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="26dp"
+        android:layout_alignRight="@+id/editText_cityName"
+        android:layout_alignEnd="@+id/editText_cityName" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Temperature"
+        android:id="@+id/textView_temp"
+        android:layout_below="@+id/textView_name"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Speed"
+        android:id="@+id/textView_speed"
+        android:layout_below="@+id/textView_temp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/textView_temp"
+        android:layout_alignEnd="@+id/textView_temp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Deg"
+        android:id="@+id/textView_deg"
+        android:layout_below="@+id/textView_speed"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Humidity"
+        android:id="@+id/textView_hum"
+        android:layout_below="@+id/textView_deg"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/textView_deg"
+        android:layout_alignEnd="@+id/textView_deg" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Sunrise"
+        android:id="@+id/textView_sunrise"
+        android:layout_below="@+id/textView_hum"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/textView_hum"
+        android:layout_alignEnd="@+id/textView_hum" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Sunset"
+        android:id="@+id/textView_sunset"
+        android:layout_below="@+id/textView_sunrise"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/textView_sunrise"
+        android:layout_alignEnd="@+id/textView_sunrise" />
 </RelativeLayout>

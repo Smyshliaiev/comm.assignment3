@@ -1,5 +1,6 @@
 package posa15.communication.assignment3.jsonweather;
 
+import java.io.BufferedInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -9,11 +10,17 @@ import java.util.List;
 import android.util.JsonReader;
 import android.util.JsonToken;
 
+import org.json.JSONException;
+import org.json.JSONObject;
+
 /**
  * Parses the Json weather data returned from the Weather Services API
  * and returns a List of JsonWeather objects that contain this data.
  */
 public class WeatherJSONParser {
+
+
+
     /**
      * Used for logging purposes.
      */
@@ -25,9 +32,25 @@ public class WeatherJSONParser {
      * objects.
      */
     public List<JsonWeather> parseJsonStream(InputStream inputStream)
-        throws IOException {
+            throws IOException, JSONException {
         // TODO -- you fill in here.
+        String theString = convertStreamToString(inputStream);
+        JSONObject jObj = new JSONObject(theString);
+
+        BufferedInputStream bufferedStream = new BufferedInputStream(
+                inputStream);
+        InputStreamReader streamReader = new InputStreamReader(
+                bufferedStream);
+
+        JsonReader reader = null;
+        reader = new JsonReader(streamReader);
+
         return null;
+    }
+
+    static String convertStreamToString(java.io.InputStream is) {
+        java.util.Scanner s = new java.util.Scanner(is).useDelimiter("\\A");
+        return s.hasNext() ? s.next() : "";
     }
 
     /**

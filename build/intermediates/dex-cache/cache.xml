@@ -2,32 +2,32 @@
 <items version="2" >
 
     <item
-        jar="D:\coursera\Vanderbild\Posa-15\comm.assignment3\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.1.1\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
-        <dex dex="D:\coursera\Vanderbild\Posa-15\comm.assignment3\app\build\intermediates\pre-dexed\debug\classes-443615ac7e1d8052dd818f11afce2c783aac8749.jar" />
-    </item>
-    <item
-        jar="D:\coursera\Vanderbild\Posa-15\comm.assignment3\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\libs\internal_impl-22.1.1.jar"
+        jar="/home/anton/coursera/Vanderbilt/rep_my/comm.assignment3/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/libs/internal_impl-22.1.1.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
-        <dex dex="D:\coursera\Vanderbild\Posa-15\comm.assignment3\app\build\intermediates\pre-dexed\debug\internal_impl-22.1.1-5339f14e3c3b94fac707a3f4580885ea5a4c3a40.jar" />
+        <dex dex="/home/anton/coursera/Vanderbilt/rep_my/comm.assignment3/app/build/intermediates/pre-dexed/debug/internal_impl-22.1.1-3649d1386f10c8ff9e09df9c34d5ecd34a199040.jar" />
     </item>
     <item
-        jar="D:\coursera\Vanderbild\Posa-15\comm.assignment3\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
-        <dex dex="D:\coursera\Vanderbild\Posa-15\comm.assignment3\app\build\intermediates\pre-dexed\debug\classes-f5046d4bfd01c1bff66454f4fd84f25522d6f944.jar" />
-    </item>
-    <item
-        jar="D:\work\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.1.1\support-annotations-22.1.1.jar"
+        jar="/home/anton/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/22.1.1/support-annotations-22.1.1.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
-        <dex dex="D:\coursera\Vanderbild\Posa-15\comm.assignment3\app\build\intermediates\pre-dexed\debug\support-annotations-22.1.1-6f98870cd33f5f3960ed72939061c2081f6a14ef.jar" />
+        <dex dex="/home/anton/coursera/Vanderbilt/rep_my/comm.assignment3/app/build/intermediates/pre-dexed/debug/support-annotations-22.1.1-bdad24e1fa0645453eee4219907dd5cdd23369c9.jar" />
+    </item>
+    <item
+        jar="/home/anton/coursera/Vanderbilt/rep_my/comm.assignment3/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
+        <dex dex="/home/anton/coursera/Vanderbilt/rep_my/comm.assignment3/app/build/intermediates/pre-dexed/debug/classes-48c4c097eccc8d0ffc873b7f60a0d93140568248.jar" />
+    </item>
+    <item
+        jar="/home/anton/coursera/Vanderbilt/rep_my/comm.assignment3/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex dex="/home/anton/coursera/Vanderbilt/rep_my/comm.assignment3/app/build/intermediates/pre-dexed/debug/classes-8a30df66e1eff9c5f0c179ba7d782778b5f2d77e.jar" />
     </item>
 
 </items>
